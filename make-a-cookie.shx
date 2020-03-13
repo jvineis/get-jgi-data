@@ -1,0 +1,3 @@
+!#/bin/bash
+
+curl 'https://signon-old.jgi.doe.gov/signon/create' --data-urlencode 'login=jvineis@mbl.edu' --data-urlencode 'password=Frogleap@3' -c cookies > /dev/null
