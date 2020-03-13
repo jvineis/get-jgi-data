@@ -1,5 +1,6 @@
 # get-jgi-data
-A tutorial describing how to download data from a metagenomic project from jgi
+A tutorial describing how to download data from a metagenomic project from jgi.  Lots of details can be found here
+https://genome.jgi.doe.gov/portal/help/download.jsf#/api
 
 ### 1. Find your project and the xml file containing all the remote server paths to your data - this is the hardest part.
 First you need to go the genome portal of JGI and find your project so that you can download the html file with all of the paths to all of the dfferent types of data housed at JGI for your project.. These include taxonomy, raw and filtered reads, and of course functions!!
