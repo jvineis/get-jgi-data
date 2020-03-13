@@ -18,7 +18,7 @@ for line in htmlf:
     if args.keyword in x:
         for element in x.split():
             if "url" in element:
-                outfile.write("curl 'https://genome.jgi.doe.gov" + element.split('"')[1] + "'" + ' -b cookies > ' + x.split()[0].split('"')[1]+'_'+args.keyword+'\n')
+                outfile.write("curl 'https://genome.jgi.doe.gov" + element.split('"')[1] + "'" + ' -b cookies > ' + x.split()[0].split('"')[1]+'\n')
 
 
 
