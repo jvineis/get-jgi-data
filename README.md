@@ -16,4 +16,10 @@ You can do this by running the make-a-cookie.shx bash script.  You will need to 
 
 ### 4.  Explore the all-jgi-dat.xml to identify the files that you want to download and look for defining key words that indicate the files you want.  For example.  The COG functions for a metagenomic data set will usually contain the text "assembled.COG".  This text can be used to generate a bash script that will generate a curl command to download each of the COG annotations for your assembled metagenomic data.  Run the script like so, and be sure to inspect the resulting bash scritp to make sure that it will download only the files that you expect. Also, you should read the help menu of the gen-curl-for-jgi.py command by typing python gen-curl-for-jgi.py -h
 
-    gen-curl-for-jgi.py -xml all-jgi-dat.xml -o curl-command-for-cog-functions.shx -
+    gen-curl-for-jgi.py -xml all-jgi-dat.xml -o curl-command-for-cog-functions.shx -keyword "assembled.COG"
+    
+### 5. Begin the download.  THis may take a long time and even stall.  You may need to run it over night.. or if you are so awesome, you could edit the curl command to keep trying until you get a result.  Persistence is key here.  This is how to run the bash script
+
+    bash curl-command-for-cog-functions.shx
+    
+### 6.  When you have the files you want and you are ready to merge them... let me know and I'll continue to work on this tutorial.  
