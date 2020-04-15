@@ -24,4 +24,6 @@ You can do this by running the make-a-cookie.shx bash script.  You will need to 
 
     bash curl-command-for-cog-functions.shx
     
-### 6.  When you have the files you want and you are ready to merge them... let me know and I'll continue to work on this tutorial.  
+### 6.  When you have the files you want and you are ready to merge them... let me know and I'll continue to work on this tutorial. 
+
+## Here is a slightly different way that I went about collecting data for the Nitrate Enrichment project at TIDE.  The JGI project name that you can use to search this project in the JGI Genome portal is 
