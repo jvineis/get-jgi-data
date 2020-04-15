@@ -30,4 +30,18 @@ You can do this by running the make-a-cookie.shx bash script.  You will need to 
 
 ### 1. Go to the IMG website and select "Metagenome Bins" from the "Find Genomes" dropdown menu 
 
+![Image of JGI Search](https://github.com/jvineis/get-jgi-data/blob/master/Screen%20Shot%202020-04-15%20at%2011.23.22%20AM.png)
 
+### 2. Use the Advanced search option to look for the taxon that you are interested in.
+
+![Image of JGI taxon search] (https://github.com/jvineis/get-jgi-data/blob/master/chlorobium-search.png)
+
+### 3. Select all of the MAGs that you want and export the table.. That should look like this.
+
+![Image of Chlorobium table] (https://github.com/jvineis/get-jgi-data/blob/master/Chlorobium-MAGs-JGI.xlsx)
+
+### 4. Copy the IDs in the "IMG Genome ID" from the table and convert to a string with spaces between so that you can paste it into the JGI Genome portal page like shown below.  This search will return the Genome portal data that you can add to your cart.. Then select the little cart icon at the top of the page and work out wich files you want to download.  A descent search term for genomes is .*\.fna
+
+![Image of Chlorobium table] (https://github.com/jvineis/get-jgi-data/blob/master/Genome_portal_search.png)
+
+### 5.  Hope that helps!
